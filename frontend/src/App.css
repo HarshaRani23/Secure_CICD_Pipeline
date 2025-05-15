@@ -1,0 +1,24 @@
+/* App.css */
+
+/* Reset some default styles */
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e293b; /* Tailwind slate-800 */
+  color: #f1f5f9; /* Tailwind slate-100 */
+}
+
+/* Optional: style buttons and inputs for fallback */
+input,
+button {
+  font-family: inherit;
+}
+
+/* Smooth transitions for buttons */
+button {
+  transition: background-color 0.3s ease;
+}
