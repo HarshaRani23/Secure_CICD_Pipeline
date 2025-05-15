@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "18"
+
+script:
+  - cd frontend
+  - npm install
+  - npm run build
+  - npm test -- --watchAll=false
