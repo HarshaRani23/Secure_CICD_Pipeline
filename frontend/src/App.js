@@ -37,7 +37,7 @@ function App() {
       >
         <div className="mb-6 text-center">
           <h1 className="text-3xl font-bold text-slate-800">
-            Secure MERN App (CI/CD)
+            Secure MERN App (CI/CD v2)
           </h1>
           <p className="text-gray-600 mt-2">
             Login to explore secure deployment
